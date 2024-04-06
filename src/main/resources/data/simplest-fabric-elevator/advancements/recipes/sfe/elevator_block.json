@@ -1,0 +1,38 @@
+{
+  "parent": "simplest-fabric-elevator:recipes/sfe/ender_pearl",
+  "criteria": {
+    "got_elevator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simplest-fabric-elevator:elevator_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "You have successfully crafted an Elevator block"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "simplest-fabric-elevator:elevator_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Elevator !"
+    }
+  },
+  "requirements": [
+    [
+      "got_elevator"
+    ]
+  ]
+}

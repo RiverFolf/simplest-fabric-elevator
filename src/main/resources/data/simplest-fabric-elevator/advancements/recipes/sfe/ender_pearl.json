@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "got_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_pearl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplest-fabric-elevator:elevator_block"
+    ]
+  }
+}
